@@ -1,0 +1,68 @@
+{
+  "hits":[
+    {"name": "es.host"},
+    {"name": "es.username"},
+    {"name": "es.password"},
+    {"name": "es.host"},
+    {"name": "oss.endpoint"},
+    {"name": "oss.accessKeyId"},
+    {"name": "oss.accessKeySecret"}
+  ],
+  "groups": [
+    {
+      "sourceType": "com.hxd.utils.ESProperties",
+      "name": "es",
+      "type": "com.hxd.utils.ESProperties"
+    },
+    {
+      "sourceType": "com.hxd.utils.OSSProperties",
+      "name": "oss",
+      "type": "com.hxd.utils.OSSProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.hxd.utils.ESProperties",
+      "name": "es.host",
+      "type": "java.lang.String",
+      "description": "ES服务端远程地址",
+      "defaultValue": ""
+    },{
+      "sourceType": "com.hxd.utils.ESProperties",
+      "name": "es.username",
+      "type": "java.lang.String",
+      "description": "ES服务端用户名",
+      "defaultValue": ""
+    },{
+      "sourceType": "com.hxd.utils.ESProperties",
+      "name": "es.password",
+      "type": "java.lang.String",
+      "description": "ES服务端密码",
+      "defaultValue": ""
+    },{
+      "sourceType": "com.hxd.utils.ESProperties",
+      "name": "es.port",
+      "type": "java.lang.Integer",
+      "description": "ES服务端端口",
+      "defaultValue": ""
+    },{
+      "sourceType": "com.hxd.utils.OSSProperties",
+      "name": "oss.endpoint",
+      "type": "java.lang.String",
+      "description": "OSS服务地址",
+      "defaultValue": ""
+    },{
+      "sourceType": "com.hxd.utils.OSSProperties",
+      "name": "oss.accessKeyId",
+      "type": "java.lang.String",
+      "description": "OSS服务接入ID",
+      "defaultValue": ""
+    },{
+      "sourceType": "com.hxd.utils.OSSProperties",
+      "name": "oss.accessKeySecret",
+      "type": "java.lang.String",
+      "description": "OSS服务接入密钥",
+      "defaultValue": ""
+    }
+  ]
+}
