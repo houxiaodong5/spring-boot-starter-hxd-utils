@@ -8,7 +8,7 @@
     <artifactId>spring-boot-starter-hxd-utils</artifactId>
     <version>1.0</version>
     <properties>
-        <springboot-version>1.5.9.RELEASE</springboot-version>
+        <springboot-version>2.5.12</springboot-version>
     </properties>
 
     <dependencies>
